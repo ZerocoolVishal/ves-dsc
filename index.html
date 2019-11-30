@@ -117,7 +117,7 @@
             <a class="p-2 text-dark" href="#catalog">Pricing</a>
             <a class="p-2 text-dark" href="#footer">Downloads</a>
             <a class="p-2 text-dark" href="#footer">Resources</a>
-            <a class="btn btn-outline-danger" href="#">Contact Us</a>
+            <a class="btn btn-outline-danger" href="#contact_us">Contact Us</a>
         </nav>
         <!--<a class="btn btn-outline-primary" href="#">Sign up</a>-->
     </div>
@@ -151,8 +151,8 @@
 
         <div class="container">
 
-            <section id="about">
-                <div class=" mt-5">
+            <section class=" mt-5" id="about">
+                <div>
                     <h1>What is digital signature?</h1>
                     <p class="lead mt-5">A Digital Signature Certificate is a secure digital key that is issued by the
                         certifying authorities for the purpose of validating and certifying the identity of the person
@@ -168,10 +168,9 @@
                 </div>
             </section>
 
-            <section id="catalog">
-                <div class="mt-5">
-                    <h4>What we provide ??</h4>
-                </div>
+            <section class="mt-5" id="catalog">
+
+                <h4>What we provide ??</h4>
 
                 <div class="card-deck mb-3 mt-5 text-center">
                     <div class="card mb-4 shadow-sm">
@@ -229,6 +228,33 @@
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section id="contact_us">
+                <h3>Contact us</h3>
+                <form>
+                    <div class="mt-4 form-row">
+                        <div class="col">
+                            <label for="f_name">First Name</label>
+                            <input type="text" class="form-control" id="f_name">
+                        </div>
+                        <div class="col">
+                            <label for="l_name">Last Name</label>
+                            <input type="text" class="form-control" id="l_name">
+                        </div>
+                    </div>
+                    <div class="mt-4 form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mt-4 form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <div class="mt-4">                    
+                        <button class="btn btn-outline-danger btn-lg" type="submit">Submit</button>
+                    </div>
+                </form>
             </section>
 
             <footer id="footer" class="pt-4 my-md-5 pt-md-5 border-top">
